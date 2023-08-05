@@ -1,0 +1,1 @@
+set(add_src ${CMAKE_CURRENT_SOURCE_DIR}/fadd.cpp ${CMAKE_CURRENT_SOURCE_DIR}/iadd.cpp PARENT_SCOPE)
