@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.24)
+
+project(chp4 VERSION 1.0.0)
+
+set(CXX_STANDARD 17)
+set(CXX_STANDARD_REQUIRED TRUE)
+set(CXX_EXTENSION FALSE)
+
+set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR}/install CACHE PATH "${PROJECT_SOURCE_DIR}/install" FORCE)
+add_subdirectory(src)
